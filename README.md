@@ -11,5 +11,5 @@ The goal of this connector is to ingest Attivio documents from attivio on-premis
  Lambda will be used for that.
  <p>
  Each instance of this connector is configured with AWS credentials and the name of the on-prem connector. It is secheduled
- to run every few minutes to check the SQS queue. The connector run ends once there are messages on the queue.
+ to run every few minutes to check the SQS queue. The connector run ends once there are no messages on the queue.
  
